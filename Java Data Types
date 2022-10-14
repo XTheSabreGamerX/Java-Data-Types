@@ -1,0 +1,57 @@
+/*Juan Carlos T. Matias
+*James Colby S. Sagcal
+IT101A*/
+
+public class Matias_Sagcal {
+    public static void main(String[] args) {
+        
+        //All Data Types
+        byte byte1, byte2;
+        short short1, short2;
+        String name1, name2;
+        int int1, int2;
+        long long1, long2;
+        boolean bool1, bool2;
+        double doub1, doub2;
+        float float1;
+        char initial1, initial2;
+        
+        //Fixed Variables
+        byte1 = -128;   //byte
+        byte2 = 127;
+        
+        short1 = -32768;    //short
+        short2 = 32767;
+        
+        long1 = -9223372036854775808L;  //long   
+        long2 = 9223372036854775807L;
+        
+        name1 = "Matias Juan";   //String
+        name2 = "Sagcal James";
+        
+        int1 = -2147483648; //int
+        int2 = 2147483647;
+        
+        doub1 = -1.79769313486231570e+308d; //double
+        doub2 = 4.94065645841246544e-324d;
+        
+        float1 = 3.141592f; //float
+        
+        bool1 = true; //boolean
+        bool2 = false;
+        
+        initial1 = 'A'; //char
+        initial2 = 'Z';
+        
+        //Implementation
+        System.out.println("The creators of this program are " + name1 + " and " + name2);
+        System.out.println("Byte's Range limit is: " + byte1 + " to " + byte2);
+        System.out.println("Short's Range consists of: " + short1 + " to " + short2);
+        System.out.println("Int's Range limit is: " + int1 + " to " + int2);
+        System.out.println("Long has a large limit of: " + long1 + " to " + long2);
+        System.out.println("Double's limit is: " + doub1 + " to " + doub2);
+        System.out.println("An example of a float number is: " + float1 + "f");
+        System.out.println("Boolean can only be: " + bool1 + " and " + bool2);
+        System.out.println("Char uses a single character which ranges from: " + initial1 + " to " + initial2);
+    }
+}
